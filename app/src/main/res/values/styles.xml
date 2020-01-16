@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/backgroundColorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <!-- Body Container -->
+    <style name="AppTheme.Body">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Header and Footer Container -->
+    <style name="AppTheme.HeaderFooterContainer">
+        <item name="android:background">@color/backgroundColorHeaderAndFooter</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Header Container -->
+    <style name="AppTheme.HeaderFooterContainer.Header">
+        <item name="android:layout_height">106dp</item>
+    </style>
+
+    <!-- Logo -->
+    <style name="AppTheme.Logo">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+
+    <!-- Title -->
+    <style name="AppTheme.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Motto -->
+    <style name="AppTheme.Motto">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <!-- Card Container -->
+    <style name="AppTheme.CardContainer">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Card -->
+    <style name="AppTheme.CardContainer.Card">
+        <item name="android:background">@drawable/card_rounded_border</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Card Icon -->
+    <style name="AppTheme.CardIcon">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <!-- Card Title -->
+    <style name="AppTheme.CardTitle">
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Footer Container -->
+    <style name="AppTheme.HeaderFooterContainer.Footer">
+        <item name="android:layout_height">120dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Contact Container -->
+    <style name="AppTheme.Contact">
+        <item name="android:layout_height">22dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Contact Image -->
+    <style name="AppTheme.ContactImage">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <!-- Contact Text -->
+    <style name="AppTheme.ContactText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

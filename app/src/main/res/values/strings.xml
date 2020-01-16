@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assistenza Informatica</string>
+    <string name="motto">Una soluzione informatica per ogni tua esigenza</string>
+    <string name="website">www.assistenzainformaticamantova.it</string>
+    <string name="telephone">+39 333 477 8019 (dalle 9 alle 23)</string>
+    <string name="email">info@assistenzainformaticamantova.it</string>
+    <string name="position">Piazzale Umbria, 8 - Mantova 46100 - Italia</string>
+    <string name="website_card_title">Siti Web</string>
+    <string name="applications_card_title">Applicazioni</string>
+    <string name="consulting_card_title">Consulenze</string>
+    <string name="courses_card_title">Corsi</string>
+</resources>

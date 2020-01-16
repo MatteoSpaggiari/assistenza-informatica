@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.Body"
+    tools:context=".MainActivity">
+
+
+    <!-- Header Container -->
+    <RelativeLayout
+        android:id="@+id/header"
+        style="@style/AppTheme.HeaderFooterContainer.Header">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:src="@drawable/logo"
+            style="@style/AppTheme.Logo" />
+
+        <TextView
+            android:id="@+id/titolo"
+            android:text="@string/app_name"
+            android:layout_toRightOf="@id/logo"
+            style="@style/AppTheme.Title" />
+
+    </RelativeLayout>
+
+    <!-- Motto -->
+    <TextView
+        android:text="@string/motto"
+        style="@style/AppTheme.Motto" />
+
+    <!-- Container Card Website and Application -->
+    <LinearLayout style="@style/AppTheme.CardContainer">
+        <LinearLayout
+            android:id="@+id/website_card"
+            style="@style/AppTheme.CardContainer.Card">
+            <ImageView
+                android:id="@+id/website_card_icon"
+                android:src="@drawable/website_card_icon"
+                style="@style/AppTheme.CardIcon" />
+
+            <TextView
+                android:id="@+id/website_card_title"
+                android:text="@string/website_card_title"
+                style="@style/AppTheme.CardTitle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/application_card"
+            style="@style/AppTheme.CardContainer.Card">
+            <ImageView
+                android:id="@+id/applications_card_icon"
+                android:src="@drawable/applications_card_icon"
+                style="@style/AppTheme.CardIcon" />
+
+            <TextView
+                android:id="@+id/applications_card_title"
+                android:text="@string/applications_card_title"
+                style="@style/AppTheme.CardTitle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Container Card Consulting and Courses -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/AppTheme.CardContainer">
+        <LinearLayout
+            android:id="@+id/consulting_card"
+            style="@style/AppTheme.CardContainer.Card">
+            <ImageView
+                android:id="@+id/consulting_card_icon"
+                android:src="@drawable/consulting_card_icon"
+                style="@style/AppTheme.CardIcon" />
+
+            <TextView
+                android:id="@+id/consulting_card_title"
+                android:text="@string/consulting_card_title"
+                style="@style/AppTheme.CardTitle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/courses_card"
+            style="@style/AppTheme.CardContainer.Card">
+            <ImageView
+                android:id="@+id/courses_card_icon"
+                android:src="@drawable/courses_card_icon"
+                style="@style/AppTheme.CardIcon" />
+
+            <TextView
+                android:id="@+id/courses_card_title"
+                android:text="@string/courses_card_title"
+                style="@style/AppTheme.CardTitle" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Footer Container -->
+    <LinearLayout
+        android:id="@+id/footer"
+        style="@style/AppTheme.HeaderFooterContainer.Footer">
+
+        <!-- Website -->
+        <LinearLayout
+            style="@style/AppTheme.Contact">
+
+
+            <ImageView
+                android:id="@+id/website_icon"
+                android:src="@drawable/website_icon"
+                style="@style/AppTheme.ContactImage" />
+
+            <TextView
+                android:id="@+id/website_text"
+                android:text="@string/website"
+                style="@style/AppTheme.ContactText" />
+
+        </LinearLayout>
+
+        <!-- Telephone -->
+        <LinearLayout
+            style="@style/AppTheme.Contact">
+
+            <ImageView
+                android:id="@+id/telephone_icon"
+                android:src="@drawable/tel_icon"
+                style="@style/AppTheme.ContactImage" />
+
+            <TextView
+                android:id="@+id/telephone_text"
+                android:text="@string/telephone"
+                style="@style/AppTheme.ContactText" />
+
+        </LinearLayout>
+
+        <!-- Email -->
+        <LinearLayout
+            style="@style/AppTheme.Contact">
+
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:src="@drawable/email_icon"
+                style="@style/AppTheme.ContactImage" />
+
+            <TextView
+                android:id="@+id/email_text"
+                android:text="@string/email"
+                style="@style/AppTheme.ContactText" />
+
+        </LinearLayout>
+
+        <!-- Position -->
+        <LinearLayout
+            style="@style/AppTheme.Contact">
+
+
+            <ImageView
+                android:id="@+id/position_icon"
+                android:src="@drawable/position_icon"
+                style="@style/AppTheme.ContactImage" />
+
+            <TextView
+                android:id="@+id/position_text"
+                android:text="@string/position"
+                style="@style/AppTheme.ContactText" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
